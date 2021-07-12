@@ -11,12 +11,12 @@
 
 
 def dicetoorderedhand(a, b, c):
-	r = [a,b,c]
-	r.sort(reverse=True)
-	l = [str(i) for i in r]
+	list = [a,b,c]
+	list.sort(reverse=True)
+	l = [str(i) for i in list]
 	order = "".join(l)
-	dice = int(order)
-	return dice
+	dicered = int(order)
+	return dicered
 
 
 	
