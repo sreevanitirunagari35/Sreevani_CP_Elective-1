@@ -18,3 +18,6 @@ def dicetoorderedhand(a, b, c):
 	dice = int(order)
 	return dice
 
+
+	
+
