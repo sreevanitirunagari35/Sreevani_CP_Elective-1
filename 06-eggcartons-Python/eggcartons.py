@@ -6,11 +6,4 @@
 
 def fun_eggcartons(eggs):
 	# your code goes here
-	a = str(eggs)
-	for i in a:
-		if eggs <= 12:
-			return 1
-		elif(i[0]<i[1]):
-			return i[0]
-		else: 
-			return i[1]
+	
